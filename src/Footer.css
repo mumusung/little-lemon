@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: left
+  }
+.footer ul{
+    list-style-type: none;
+    justify-content: left;
+    margin: 20px;
+    text-align: left;
+}
+.footer-container{
+    margin-top: 600px;
+  }
+.footer li{
+    text-align: left;
+}

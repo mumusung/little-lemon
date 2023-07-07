@@ -1,9 +1,9 @@
 import React from 'react';
+import './Footer.css'
 function Footer(){
-    return <footer>
-        <img src={logo} />
-        <ul>
-            <li>Doormat Nav igation</li>
+    return <footer className='footer'>
+        <img src={'/images/Logo2.png'} alt="logo for footer element" />
+        <ul className='Doormat'>Doormat Navigation
             <li>Home</li>
             <li>About</li>
             <li>menu</li>
@@ -11,13 +11,12 @@ function Footer(){
             <li>Order online</li>
             <li>Login</li>
             </ul>
-            <ul>
-                <li>Contact</li>
+            <ul className='contact'>Contact
                 <li>Address</li>
+                <li>phone number</li>
                 <li>email</li>
             </ul>
-            <ul>
-                <li>Social Media Links</li>
+            <ul className='social'>Social Media Link
                 <li>Address</li>
                 <li>phone number</li>
                 <li>email</li>
