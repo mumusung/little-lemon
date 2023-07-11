@@ -10,6 +10,5 @@ export default function Section(){
     </div>
     <div className='specialmenu'>
     </div>
-    <h2></h2>
     </section>
 )}

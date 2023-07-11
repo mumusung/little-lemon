@@ -1,0 +1,8 @@
+*{
+    text-align: center;
+}
+.Field{
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+}
