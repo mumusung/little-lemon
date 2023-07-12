@@ -12,6 +12,8 @@
     padding: 25px;
     gap: 12rem;
     background-color: #495e57;
+    width: 1920px;
+    justify-content: center;
 }
 .button1{
     width: 120px;

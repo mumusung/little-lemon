@@ -1,8 +1,10 @@
 import React from 'react';
 import './Footer.css'
+import logo from './images/Logo2.png'
 function Footer(){
-    return <footer className='footer'>
-        <img src={'/images/Logo2.png'} alt="logo for footer element" />
+    return (
+        <footer className='footer'>
+        <img src={logo} alt="logo for footer element" />
         <ul className='Doormat'>Doormat Navigation
             <li>Home</li>
             <li>About</li>
@@ -21,6 +23,6 @@ function Footer(){
                 <li>phone number</li>
                 <li>email</li>
             </ul>
-    </footer>;
+    </footer>)
 }
 export default Footer
