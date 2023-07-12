@@ -1,0 +1,28 @@
+.mumu1{
+    margin-top: 5rem;
+    margin-right: 28rem;
+    text-align: center;
+    max-width: 450px;
+}
+.mumu1 h1{
+    text-align: left;
+}
+.mumu1 h2{
+    text-align: left;
+}
+.display1{
+    display: flex;
+    margin-top: 2rem;
+}
+.images{
+    position: absolute;
+    margin-left: 30em;
+}
+.imagefront{
+    position: relative;
+}
+.imageback{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

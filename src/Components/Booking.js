@@ -11,30 +11,35 @@ function Booking() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     const isDuplicate = bookings.some(
       (booking) =>
         booking.selectedDate === selectedDate && booking.selectedTime === selectedTime
     );
-
+  
     if (isDuplicate) {
       alert('Duplicate form submission detected!');
       return;
     }
-
+  
+    if (numberOfGuests < 2) {
+      alert('Number of guests must be at least 2!');
+      return;
+    }
+  
     const newBooking = {
       selectedDate,
       selectedTime,
     };
-
+  
     setBookings([...bookings, newBooking]);
     setName('');
     setSelectedDate('');
     setSelectedTime('');
     setNumberOfGuests(1);
-
+  
     console.log('Form submitted!');
-    navigate('/confirmation')
+    navigate('/confirmation');
   };
 
   const selectedDates = bookings.map((booking) => booking.selectedDate);

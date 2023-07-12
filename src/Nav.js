@@ -8,12 +8,12 @@ function Nav(){
     return (
         <div>
         <nav className="navbar">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/reservation">Reservation</Link>
-            <Link to="/order online">Order online</Link>
-            <Link to="/Login">Login</Link>
-            <Link to="/booking">Booking</Link>
+            <Link className='icon1' to="/">Home</Link>
+            <Link className='icon1' to="/about">About</Link>
+            <Link className='icon1' to="/reservation">Reservation</Link>
+            <Link className='icon1' to="/order online">Order online</Link>
+            <Link className='icon1' to="/Login">Login</Link>
+            <Link className='icon1' to="/booking">Booking</Link>
             <Routes>
         <Route path="/booking" element={<Booking/>} />
         <Route path="/confirmation" element={<ConfirmationPage/>} />

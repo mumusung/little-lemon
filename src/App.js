@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Main from './Main';
 import Section from './section';
 import Card from './Card'
+import Testimonial from './About';
 function App() {
   return (
     <div className="app-container">
@@ -23,6 +24,9 @@ function App() {
         <Card 
         title='Card title'
         body='lorem'/>
+      </div>
+      <div>
+        <Testimonial/>
       </div>
       <div className="footer-container">
         <Footer />
